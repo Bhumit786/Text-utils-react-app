@@ -33,7 +33,7 @@ function App(props) {
   return (
     <>
     <Router>
-    <Navbar title="my-app" aboutus="about us" Dropdown={props.first} mode={mode} togglemode={togglemode}/>
+    <Navbar title="Textutils" aboutus="about us" Dropdown={props.first} mode={mode} togglemode={togglemode}/>
     <Alert alert={alert}/>
     <Routes>
       <Route path='/' element={<><div className="container my-3">
